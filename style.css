@@ -712,7 +712,9 @@ body {
 
   .me-bar {
       width: 100%;
-      overflow: hidden
+      overflow: hidden;
+      padding-left: 5%;
+    padding-right: 5%
   }
 
   .me-center .me-bar {
