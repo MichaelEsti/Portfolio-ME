@@ -28,6 +28,13 @@ body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
+  @media (max-width: 767px) {
+      .tile {
+          width: 100%;
+          height: 300px;
+      }
+  }
+
   /* image style */
   .tile img {
       height: 100%;
@@ -135,10 +142,10 @@ body {
   }
 
 
-  @media (max-width: 1000px) {
+  @media (max-width: 767px) {
       .wrap {
           flex-direction: column;
-          width: 400px;
+          width: 80%;
       }
   }
 
@@ -2211,4 +2218,33 @@ body {
     background-image: url(img/javaicon\ copy.png);
     background-size:cover;
     background-position: center;
+}
+
+@media (max-width: 415px) {
+    .bg-blur {
+        margin: 0;
+        text-align: center;
+        left: 5%;
+        right: 5%;
+        line-height: 2rem;
+    }
+
+    .margin-bottom {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 668px) {
+    .bg-blur {
+        margin: 0;
+        text-align: center;
+        left: 5%;
+        right: 5%;
+        line-height: 2rem;
+        margin-top: 5%;
+    }
+
+    .margin-bottom {
+        margin-bottom: 0px;
+    }
 }
