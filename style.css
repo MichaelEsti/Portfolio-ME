@@ -1616,6 +1616,11 @@ body {
       padding-bottom: 64px !important
   }
 
+  .me-padding-64 {
+      padding-top: 64px;
+      padding-bottom: 64px;
+  }
+
   .me-padding-top-64 {
       padding-top: 64px !important
   }
