@@ -2162,7 +2162,7 @@ body {
     -webkit-backdrop-filter: blur( 8.5px );
   border-radius: 10px;
     margin-left: 5%;
-    line-height: 3rem;
+    line-height: 3.2rem;
   }
 
   .skillContain {
@@ -2269,4 +2269,8 @@ body {
 
 footer {
     margin-top: 7%;
+}
+
+#name {
+    font-weight: bold;
 }
