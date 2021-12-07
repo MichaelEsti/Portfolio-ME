@@ -160,7 +160,6 @@ body {
       box-sizing: inherit
   }
 
-  /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
   html {
       -ms-text-size-adjust: 100%;
       -webkit-text-size-adjust: 100%
@@ -367,7 +366,6 @@ body {
       font: inherit
   }
 
-  /* End extract */
   html,
   body {
       font-family: Verdana, sans-serif;
@@ -1673,133 +1671,6 @@ body {
   }
 
   /* Colors */
-  .s-amber,
-  .s-hover-amber:hover {
-      color: #000 !important;
-      background-color: #ffc107 !important
-  }
-
-  .s-aqua,
-  .s-hover-aqua:hover {
-      color: #000 !important;
-      background-color: #00ffff !important
-  }
-
-  .s-blue,
-  .s-hover-blue:hover {
-      color: #fff !important;
-      background-color: #2196F3 !important
-  }
-
-  .s-light-blue,
-  .s-hover-light-blue:hover {
-      color: #000 !important;
-      background-color: #87CEEB !important
-  }
-
-  .s-brown,
-  .s-hover-brown:hover {
-      color: #fff !important;
-      background-color: #795548 !important
-  }
-
-  .s-cyan,
-  .s-hover-cyan:hover {
-      color: #000 !important;
-      background-color: #00bcd4 !important
-  }
-
-  .s-blue-grey,
-  .s-hover-blue-grey:hover,
-  .s-blue-gray,
-  .s-hover-blue-gray:hover {
-      color: #fff !important;
-      background-color: #607d8b !important
-  }
-
-  .s-green,
-  .s-hover-green:hover {
-      color: #fff !important;
-      background-color: #4CAF50 !important
-  }
-
-  .s-light-green,
-  .s-hover-light-green:hover {
-      color: #000 !important;
-      background-color: #8bc34a !important
-  }
-
-  .s-indigo,
-  .s-hover-indigo:hover {
-      color: #fff !important;
-      background-color: #3f51b5 !important
-  }
-
-  .s-khaki,
-  .s-hover-khaki:hover {
-      color: #000 !important;
-      background-color: #f0e68c !important
-  }
-
-  .s-lime,
-  .s-hover-lime:hover {
-      color: #000 !important;
-      background-color: #cddc39 !important
-  }
-
-  .s-orange,
-  .s-hover-orange:hover {
-      color: #000 !important;
-      background-color: #ff9800 !important
-  }
-
-  .s-deep-orange,
-  .s-hover-deep-orange:hover {
-      color: #fff !important;
-      background-color: #ff5722 !important
-  }
-
-  .s-pink,
-  .s-hover-pink:hover {
-      color: #fff !important;
-      background-color: #e91e63 !important
-  }
-
-  .s-purple,
-  .s-hover-purple:hover {
-      color: #fff !important;
-      background-color: #9c27b0 !important
-  }
-
-  .s-deep-purple,
-  .s-hover-deep-purple:hover {
-      color: #fff !important;
-      background-color: #673ab7 !important
-  }
-
-  .s-red,
-  .s-hover-red:hover {
-      color: #fff !important;
-      background-color: #f44336 !important
-  }
-
-  .s-sand,
-  .s-hover-sand:hover {
-      color: #000 !important;
-      background-color: #fdf5e6 !important
-  }
-
-  .s-teal,
-  .s-hover-teal:hover {
-      color: #fff !important;
-      background-color: #009688 !important
-  }
-
-  .s-yellow,
-  .s-hover-yellow:hover {
-      color: #000 !important;
-      background-color: #ffeb3b !important
-  }
 
   .s-black,
   .s-hover-white:hover {
@@ -1836,136 +1707,6 @@ body {
       background-color: #616161 !important
   }
 
-  .s-pale-red,
-  .s-hover-pale-red:hover {
-      color: #000 !important;
-      background-color: #ffdddd !important
-  }
-
-  .s-pale-green,
-  .s-hover-pale-green:hover {
-      color: #000 !important;
-      background-color: #ddffdd !important
-  }
-
-  .s-pale-yellow,
-  .s-hover-pale-yellow:hover {
-      color: #000 !important;
-      background-color: #ffffcc !important
-  }
-
-  .s-pale-blue,
-  .s-hover-pale-blue:hover {
-      color: #000 !important;
-      background-color: #ddffff !important
-  }
-
-  .s-text-amber,
-  .s-hover-text-amber:hover {
-      color: #ffc107 !important
-  }
-
-  .s-text-aqua,
-  .s-hover-text-aqua:hover {
-      color: #00ffff !important
-  }
-
-  .s-text-blue,
-  .s-hover-text-blue:hover {
-      color: #2196F3 !important
-  }
-
-  .s-text-light-blue,
-  .s-hover-text-light-blue:hover {
-      color: #87CEEB !important
-  }
-
-  .s-text-brown,
-  .s-hover-text-brown:hover {
-      color: #795548 !important
-  }
-
-  .s-text-cyan,
-  .s-hover-text-cyan:hover {
-      color: #00bcd4 !important
-  }
-
-  .s-text-blue-grey,
-  .s-hover-text-blue-grey:hover,
-  .s-text-blue-gray,
-  .s-hover-text-blue-gray:hover {
-      color: #607d8b !important
-  }
-
-  .s-text-green,
-  .s-hover-text-green:hover {
-      color: #4CAF50 !important
-  }
-
-  .s-text-light-green,
-  .s-hover-text-light-green:hover {
-      color: #8bc34a !important
-  }
-
-  .s-text-indigo,
-  .s-hover-text-indigo:hover {
-      color: #3f51b5 !important
-  }
-
-  .s-text-khaki,
-  .s-hover-text-khaki:hover {
-      color: #b4aa50 !important
-  }
-
-  .s-text-lime,
-  .s-hover-text-lime:hover {
-      color: #cddc39 !important
-  }
-
-  .s-text-orange,
-  .s-hover-text-orange:hover {
-      color: #ff9800 !important
-  }
-
-  .s-text-deep-orange,
-  .s-hover-text-deep-orange:hover {
-      color: #ff5722 !important
-  }
-
-  .s-text-pink,
-  .s-hover-text-pink:hover {
-      color: #e91e63 !important
-  }
-
-  .s-text-purple,
-  .s-hover-text-purple:hover {
-      color: #9c27b0 !important
-  }
-
-  .s-text-deep-purple,
-  .s-hover-text-deep-purple:hover {
-      color: #673ab7 !important
-  }
-
-  .s-text-red,
-  .s-hover-text-red:hover {
-      color: #f44336 !important
-  }
-
-  .s-text-sand,
-  .s-hover-text-sand:hover {
-      color: #fdf5e6 !important
-  }
-
-  .s-text-teal,
-  .s-hover-text-teal:hover {
-      color: #009688 !important
-  }
-
-  .s-text-yellow,
-  .s-hover-text-yellow:hover {
-      color: #d2be0e !important
-  }
 
   .s-text-white,
   .s-hover-text-white:hover {
@@ -1998,113 +1739,6 @@ body {
       color: #3a3a3a !important
   }
 
-  .s-border-amber,
-  .s-hover-border-amber:hover {
-      border-color: #ffc107 !important
-  }
-
-  .s-border-aqua,
-  .s-hover-border-aqua:hover {
-      border-color: #00ffff !important
-  }
-
-  .s-border-blue,
-  .s-hover-border-blue:hover {
-      border-color: #2196F3 !important
-  }
-
-  .s-border-light-blue,
-  .s-hover-border-light-blue:hover {
-      border-color: #87CEEB !important
-  }
-
-  .s-border-brown,
-  .s-hover-border-brown:hover {
-      border-color: #795548 !important
-  }
-
-  .s-border-cyan,
-  .s-hover-border-cyan:hover {
-      border-color: #00bcd4 !important
-  }
-
-  .s-border-blue-grey,
-  .s-hover-border-blue-grey:hover,
-  .s-border-blue-gray,
-  .s-hover-border-blue-gray:hover {
-      border-color: #607d8b !important
-  }
-
-  .s-border-green,
-  .s-hover-border-green:hover {
-      border-color: #4CAF50 !important
-  }
-
-  .s-border-light-green,
-  .s-hover-border-light-green:hover {
-      border-color: #8bc34a !important
-  }
-
-  .s-border-indigo,
-  .s-hover-border-indigo:hover {
-      border-color: #3f51b5 !important
-  }
-
-  .s-border-khaki,
-  .s-hover-border-khaki:hover {
-      border-color: #f0e68c !important
-  }
-
-  .s-border-lime,
-  .s-hover-border-lime:hover {
-      border-color: #cddc39 !important
-  }
-
-  .s-border-orange,
-  .s-hover-border-orange:hover {
-      border-color: #ff9800 !important
-  }
-
-  .s-border-deep-orange,
-  .s-hover-border-deep-orange:hover {
-      border-color: #ff5722 !important
-  }
-
-  .s-border-pink,
-  .s-hover-border-pink:hover {
-      border-color: #e91e63 !important
-  }
-
-  .s-border-purple,
-  .s-hover-border-purple:hover {
-      border-color: #9c27b0 !important
-  }
-
-  .s-border-deep-purple,
-  .s-hover-border-deep-purple:hover {
-      border-color: #673ab7 !important
-  }
-
-  .s-border-red,
-  .s-hover-border-red:hover {
-      border-color: #f44336 !important
-  }
-
-  .s-border-sand,
-  .s-hover-border-sand:hover {
-      border-color: #fdf5e6 !important
-  }
-
-  .s-border-teal,
-  .s-hover-border-teal:hover {
-      border-color: #009688 !important
-  }
-
-  .s-border-yellow,
-  .s-hover-border-yellow:hover {
-      border-color: #ffeb3b !important
-  }
-
   .s-border-white,
   .s-hover-border-white:hover {
       border-color: #fff !important
@@ -2134,26 +1768,6 @@ body {
   .s-border-dark-gray,
   .s-hover-border-dark-gray:hover {
       border-color: #616161 !important
-  }
-
-  .s-border-pale-red,
-  .s-hover-border-pale-red:hover {
-      border-color: #ffe7e7 !important
-  }
-
-  .s-border-pale-green,
-  .s-hover-border-pale-green:hover {
-      border-color: #e7ffe7 !important
-  }
-
-  .s-border-pale-yellow,
-  .s-hover-border-pale-yellow:hover {
-      border-color: #ffffcc !important
-  }
-
-  .s-border-pale-blue,
-  .s-hover-border-pale-blue:hover {
-      border-color: #e7ffff !important
   }
 
   .bg-blur {
@@ -2273,4 +1887,8 @@ footer {
 
 #name {
     font-weight: bold;
+}
+
+.shadow {
+    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
 }
