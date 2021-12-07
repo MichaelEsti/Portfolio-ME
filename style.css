@@ -1249,7 +1249,7 @@ body {
   .me-row-padding>.me-threequarter,
   .me-row-padding>.me-quarter,
   .me-row-padding>.me-col {
-      padding: 0 8px
+      padding: 0 2%;
   }
 
   .me-container,
@@ -2172,7 +2172,7 @@ body {
     gap: 50px;
     margin-top: 43px;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 650px;
   }
 
   .skillItem {
